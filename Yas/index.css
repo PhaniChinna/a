@@ -1,0 +1,199 @@
+.bgContainer {
+  background-color: #fdf2e9;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg1Container {
+  margin-left: 20px;
+}
+
+.Heading1 {
+  font-size: 25px;
+  color: #333;
+}
+
+.Aletter {
+  font-size: 2rem;
+  color: #e6194b;
+}
+
+.Bletter {
+  font-size: 2rem;
+  color: #3cb44b;
+}
+
+.Hletter {
+  font-size: 2rem;
+  color: #4363d8;
+}
+
+.Oletter {
+  font-size: 1.4rem;
+  color: #e6194b;
+}
+
+.Fletter {
+  font-size: 1.4rem;
+  color: #3cb44b;
+}
+
+.Lletter {
+  font-size: 1.4rem;
+  color: #4363d8;
+}
+
+.SubClass {
+  margin-left: 100px;
+  margin-top: -10px;
+}
+
+.Artile {
+  display: flex;
+}
+
+.ListCard {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.BoldContainer {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.listCard {
+  width: 45vw;
+  height: 50vh;
+  margin-left: 20px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+.ListHeading {
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.ParagraphList {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 350px;
+}
+
+.Heading2List {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.StromngText {
+  margin-left: 200px;
+}
+
+.AsideElement {
+  margin-top: 30px;
+}
+
+.OurServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  background-color: #fdf2e9;
+  padding: 5px;
+}
+
+.SpanOur {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Oletter {
+  font-size: 2rem;
+  color: #911eb4;
+}
+
+.Sletter {
+  font-size: 2rem;
+  color: #bfef45;
+}
+
+.OurServicesCont {
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.FacialImages {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-left: 20px;
+  margin-right: 45px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Fac {
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.FacBri {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 58px;
+}
+
+@media screen and (max-width: 600px) {
+  .Artile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .listCard {
+    width: 95vw;
+    margin-left: -10px;
+  }
+  .ListCard {
+    margin-top: 20px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  .ParagraphList {
+    margin-left: 100px;
+  }
+  .StromngText {
+    margin-left: 2px;
+    margin-top: 15px;
+  }
+  .OurServicesCont {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .FacialImages {
+    margin-right: 35px;
+    margin-left: -1px;
+    cursor: pointer;
+  }
+  .Fac {
+    font-size: 20px;
+  }
+  .FacBri {
+    margin-left: 35px;
+  }
+}
